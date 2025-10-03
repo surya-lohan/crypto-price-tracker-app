@@ -6,7 +6,7 @@ axios.defaults.baseURL = 'http://localhost:3000/'
 
 const App = () => {
   return (
-    <div>App</div>
+    <div class='text-3xl font-bold underline' >App</div>
   )
 }
 
