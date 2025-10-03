@@ -30,7 +30,10 @@ console.log(topSymbolsResponse.data)
 
 const App = () => {
   return (
-    <div>{showResponse(symbolResponse)}</div>
+    <div>
+      {data.symbols[0].last}
+      
+    </div>
   )
 }
 
